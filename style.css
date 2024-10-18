@@ -3,7 +3,10 @@
   padding: 0;
   font-family: "Courier New", "Courier", sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #fff;
+  user-select: none;
+}
+body {
+  background-color: rgba(222, 184, 135, 0.466);
 }
 .convoy {
   position: absolute;
@@ -73,8 +76,9 @@
 .days {
   position: relative;
   display: block;
-  text-align: center;
+  /* text-align: center; */
   font-size: 80px;
+  color: #fff;
   line-height: 60px;
   text-transform: uppercase;
   font-weight: 700;
@@ -83,8 +87,9 @@
 .css {
   position: relative;
   display: block;
-  text-align: center;
+  /* text-align: center; */
   font-size: 23px;
+  color: #fff;
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 700;
