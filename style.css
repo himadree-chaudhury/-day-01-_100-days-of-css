@@ -33,7 +33,6 @@
   width: 200px;
 }
 .one-1 {
-  border: 3px dotted mediumorchid;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -46,7 +45,6 @@
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
 }
 .one-2 {
-  border: 3px dotted mediumorchid;
   position: absolute;
   z-index: 10;
   top: 0;
@@ -69,4 +67,8 @@
   box-sizing: border-box;
   border: 24px solid #fff;
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.zero-2{
+    z-index:4;
+    left: 100px;
 }
