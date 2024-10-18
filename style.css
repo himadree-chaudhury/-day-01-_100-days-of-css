@@ -47,14 +47,26 @@
 }
 .one-2 {
   border: 3px dotted mediumorchid;
-
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   top: 0;
   left: 0;
   height: 100px;
   width: 24px;
   background: #fff;
   border-radius: 3px;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.zero-1,
+.zero-2 {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 17px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 24px solid #fff;
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
 }
