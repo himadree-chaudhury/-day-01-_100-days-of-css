@@ -72,3 +72,12 @@
     z-index:4;
     left: 100px;
 }
+.days{
+    position: relative;
+    display: block;
+    font-size: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 6px;
+}
