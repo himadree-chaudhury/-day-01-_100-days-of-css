@@ -81,3 +81,12 @@
     font-weight: 700;
     margin-top: 6px;
 }
+.css{
+    position: relative;
+    display: block;
+    font-size: 23px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+}
