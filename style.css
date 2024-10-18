@@ -20,14 +20,12 @@
   background: linear-gradient(bottom left, #43389f 0%, #4ec6ca 100%);
 }
 .container {
-  border: 2px solid green;
   position: absolute;
   top: 50.8%;
   left: 50.5%;
   transform: translate(-50%, -50%);
 }
 .number {
-  border: 2px solid red;
   position: relative;
   height: 100px;
   width: 200px;
