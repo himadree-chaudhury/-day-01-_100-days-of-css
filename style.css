@@ -5,6 +5,15 @@
   -webkit-font-smoothing: antialiased;
   user-select: none;
 }
+:root {
+  --color-primary: #43389f;
+  --color-secondary: #4ec6ca;
+  --color-one: gold;
+  --color-two: deeppink;
+  --color-three: greenyellow;
+  --color-four: purple;
+  --color-text: white;
+}
 body {
   background-color: rgba(222, 184, 135, 0.466);
 }
@@ -18,9 +27,11 @@ body {
   margin-left: -200px;
   border-radius: 2px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: -webkit-linear-gradient(bottom left, #43389f 0%, #4ec6ca 100%);
-  background: -moz-linear-gradient(bottom left, #43389f 0%, #4ec6ca 100%);
-  background: linear-gradient(bottom left, #43389f 0%, #4ec6ca 100%);
+  background: -webkit-linear-gradient(
+    bottom left,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
 }
 .container {
   position: absolute;
@@ -40,7 +51,7 @@ body {
   left: -16px;
   height: 40px;
   width: 20px;
-  background: #fff;
+  background: var(--color-two);
   border-radius: 3px;
   transform: rotate(50deg);
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
@@ -52,7 +63,7 @@ body {
   left: 0;
   height: 100px;
   width: 24px;
-  background: #fff;
+  background: var(--color-two);
   border-radius: 3px;
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
 }
@@ -66,19 +77,20 @@ body {
   width: 100px;
   border-radius: 50%;
   box-sizing: border-box;
-  border: 24px solid #fff;
+  border: 24px solid var(--color-three);
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
 }
 .zero-2 {
   z-index: 4;
   left: 100px;
+  border-color: var(--color-four);
 }
 .days {
   position: relative;
   display: block;
   /* text-align: center; */
   font-size: 80px;
-  color: #fff;
+  color: var(--color-text);
   line-height: 60px;
   text-transform: uppercase;
   font-weight: 700;
@@ -89,7 +101,7 @@ body {
   display: block;
   /* text-align: center; */
   font-size: 23px;
-  color: #fff;
+  color: var(--color-text);
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 700;
