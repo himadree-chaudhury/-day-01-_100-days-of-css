@@ -68,25 +68,27 @@
   border: 24px solid #fff;
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
 }
-.zero-2{
-    z-index:4;
-    left: 100px;
+.zero-2 {
+  z-index: 4;
+  left: 100px;
 }
-.days{
-    position: relative;
-    display: block;
-    font-size: 80px;
-    line-height: 60px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 6px;
+.days {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 80px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 6px;
 }
-.css{
-    position: relative;
-    display: block;
-    font-size: 23px;
-    line-height: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.04rem;
+.css {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
 }
